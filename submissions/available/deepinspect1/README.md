@@ -7,7 +7,7 @@ DeepInspect is a tool to test any DNN based image classifier and outputs potenti
 ### Requirement
 OS: Ubuntu 18.10   
 Python 3.7 or Python 3.8   
-Need python package(can be installed by pip): numpy, scipy, matplotlib, sklearn, pandas   
+Need python package(can be installed by pip or conda): numpy, scipy, matplotlib, sklearn, pandas   
 
 ### Reproducing results in Table 3 and Figure 6 in paper:  
 ```
