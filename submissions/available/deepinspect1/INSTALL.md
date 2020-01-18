@@ -24,4 +24,5 @@ python3 bias_bugs_estimate_ab_and_acd.py
 python3 bias_bugs_generate_results.py
 ```
 #### Expected outputs
-
+1. csv files are generated without errors.  
+2. precision and recall are outputted.
