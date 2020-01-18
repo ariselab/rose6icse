@@ -5,8 +5,8 @@
   - github ids: [yuchi1989](https://github.com/yuchi1989)
 
 - Ziyuan Zhong
-  - email: 
-  - github ids: []()
+  - email: zz2521@columbia.edu
+  - github ids: [AIasd](https://github.com/AIasd)
 
 # Author
 
