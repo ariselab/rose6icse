@@ -56,4 +56,4 @@ python3 bias_bugs_generate_results.py
 ## Expected outputs
 1. Reproducing scripts should generate exactly same results as in paper.
 2. When inspecting CIFAR-10 models, csv files are generated without errors.  
-2. After overriding original csv files, the precision and recall of predicting confusion errors and bias errors are outputted.
+3. After overriding original csv files, the precision and recall of predicting confusion errors and bias errors are outputted.
