@@ -10,6 +10,9 @@ OS: Ubuntu 18.10
 Python 3.7 or Python 3.8   
 Need python package(can be installed by pip or conda): numpy, scipy, matplotlib, sklearn, pandas   
 
+#### Clone the Repository
+git clone https://github.com/ARiSE-Lab/DeepInspect.git
+
 ### Reproducing results in Table 3 and Figure 6 in paper:  
 ```
 cd reproduce
