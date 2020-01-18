@@ -46,7 +46,7 @@ cp robust_cifar_small_objects_directional_type1_confusion_test_90.csv ../../data
 cp robust_cifar_small_test_labels_90.csv ../../data/robust_cifar10_small/test_labels_90.csv
 cp robust_cifar_small_test_predicted_labels_90.csv ../../data/robust_cifar10_small/test_predicted_labels_90.csv
 
-# Evaluate bias errors prediction
+# Evaluate confusion errors prediction
 cd ../../reproduce
 python3 confusion_bugs.py
 # Evaluate bias errors prediction
