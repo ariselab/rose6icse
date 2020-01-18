@@ -4,7 +4,7 @@ OS: Ubuntu 18.10
 Python 2.7 with library numpy-1.16, tqdm-4.41, torch-1.3.1, torchsummary  
 Python 3.7/3.8 with library numpy, scipy, matplotlib, sklearn, pandas
 
-#### Run deepinspect on robust training CIFAR-10 models to generate csv files and pickile files
+#### Run deepinspect on robust training CIFAR-10 models to generate csv files
 ```
 cd deepinspect/robust_cifar10/
 python2 cifar10_small_deepinspect.py
