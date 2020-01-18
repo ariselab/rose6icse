@@ -1,6 +1,7 @@
 # DeepInspect: Testing DNN Image Classifier for Confusion & Bias Errors  (ICSE'20)
 
 DeepInspect is a tool to test any DNN based image classifier and outputs potential confusion and bias errors.
+Check out [DeepInspect website](https://github.com/ARiSE-Lab/DeepInspect) for more information details. A pre-print of the paper can be found at [ICSE20_DeepInspect.pdf](https://yuchi1989.github.io/papers/ICSE20_DeepInspect.pdf). 
 
 ## Reproduce paper results
 
