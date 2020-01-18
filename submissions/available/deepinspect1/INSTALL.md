@@ -51,10 +51,10 @@ cp robust_cifar_small_test_predicted_labels_90.csv ../../data/robust_cifar10_sma
 
 # Evaluate confusion errors prediction
 cd ../../reproduce
-python3 confusion_bugs.py
+python3 confusion_bugs.py --datasets=robust_cifar10_small
 # Evaluate bias errors prediction
-python3 bias_bugs_estimate_ab_and_acd.py
-python3 bias_bugs_generate_results.py
+python3 bias_bugs_estimate_ab_and_acd.py --datasets=robust_cifar10_small
+python3 bias_bugs_generate_results.py --datasets=robust_cifar10_small
 ```
 ## Expected outputs
 1. Reproducing scripts should generate exactly same results as in paper.
