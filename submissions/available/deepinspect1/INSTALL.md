@@ -1,4 +1,5 @@
-Inspect robust CIFAR-10 models (models from [paper1](http://papers.nips.cc/paper/8060-scaling-provable-adversarial-defenses.pdf), [paper2](https://arxiv.org/abs/1811.02625))
+Apply deepinspect to testing robust CIFAR-10 models (models from [paper1](http://papers.nips.cc/paper/8060-scaling-provable-adversarial-defenses.pdf), [paper2](https://arxiv.org/abs/1811.02625))
+
 #### Prerequisite
 OS: Ubuntu 18.10  
 Python 2.7 with library numpy-1.16, tqdm-4.41, torch-1.3.1, torchsummary  
