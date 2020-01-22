@@ -42,6 +42,8 @@ git clone https://github.com/ARiSE-Lab/DeepInspect.git
 #### Run deepinspect on robust training CIFAR-10 models to generate csv files
 ```
 cd deepinspect/robust_cifar10/
+rm *.csv
+rm *.pickle
 python2 cifar10_small_deepinspect.py
 ```
 #### Evaluate the predictions of confusion errors and bias errors.
