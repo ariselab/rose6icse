@@ -1,6 +1,8 @@
-# DeepInspect: Testing DNN Image Classifier for Confusion & Bias Errors  (ICSE'20)
+# Testing DNN Image Classifier for Confusion & Bias Errors  (ICSE'20)
 
-DeepInspect is a tool to test any DNN based image classifier and outputs potential confusion and bias errors.
+We proposed a testing approach to automatically detect class-based confusion and bias errors in DNN-driven image classification software. We implemented and evaluate DeepInspect, on several popular image classifiers and tasks with precision up to 100% (avg. 72.6%)for confusion errors, and up to 84.3% (avg. 66.8%) for bias errors. DeepInspect found hundreds of classification mistakes in widely-used models, many of which expose errors indicating confusion or bias.  
+
+DeepInspect is a tool we design and implement to test both multi-label and single-label DNN based image classifier and output potential confusion and bias errors.
 Check out [DeepInspect website](https://github.com/ARiSE-Lab/DeepInspect) for more information details. A pre-print of the paper can be found at [ICSE20_DeepInspect.pdf](https://yuchi1989.github.io/papers/ICSE20_DeepInspect.pdf). 
 
 ## Reproduce paper results
@@ -57,6 +59,6 @@ python3 bias_bugs_estimate_ab_and_acd.py --datasets=robust_cifar10_small
 python3 bias_bugs_generate_results.py --datasets=robust_cifar10_small
 ```
 ## Expected outputs
-1. Reproducing scripts should generate exactly same results as in paper.
+1. Reproducing scripts should generate exactly same results as in paper (Table 3, Figure 6, Table 4, Figure 10).
 2. When inspecting CIFAR-10 models, csv files are generated without errors.  
-3. After overriding original csv files, the precision and recall of predicting confusion errors and bias errors are outputted.
+3. After overriding original csv files and running reproduce scripts, the precision and recall of predicting confusion errors and bias errors are outputted.
