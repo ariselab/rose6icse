@@ -1,8 +1,6 @@
 # Testing DNN Image Classifier for Confusion & Bias Errors  (ICSE'20)
 
-We proposed a testing approach to automatically detect class-based confusion and bias errors in DNN-driven image classification software. We implemented and evaluate DeepInspect, on several popular image classifiers and tasks with precision up to 100% (avg. 72.6%)for confusion errors, and up to 84.3% (avg. 66.8%) for bias errors. DeepInspect found hundreds of classification mistakes in widely-used models, many of which expose errors indicating confusion or bias.  
-
-DeepInspect is a tool we design and implement to test both multi-label and single-label DNN based image classifier and output potential confusion and bias errors.
+Here we present a novel testing approach, DeepInspect, to automatically detect class-based confusion and bias errors in DNN-driven image classification software for both single-label and multi-label classification tasks. Our evaluation on several popular models and dataset show  DeepInspect can find confusion errors with precision up to 100% (avg. 72.6%), and up to 84.3% (avg. 66.8%) for bias errors. DeepInspect found hundreds of classification mistakes in widely-used models. 
 Check out [DeepInspect website](https://github.com/ARiSE-Lab/DeepInspect) for more information details. A pre-print of the paper can be found at [ICSE20_DeepInspect.pdf](https://yuchi1989.github.io/papers/ICSE20_DeepInspect.pdf). 
 
 ## Reproduce paper results
